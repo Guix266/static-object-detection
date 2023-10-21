@@ -6,6 +6,9 @@ Par exemple un sac, une poubelle.... Le programme entourre ces zones en rouge.
 
 - Principe: Détection des objets statiques puis classification
 
+![Detection du baggage](images/test_image.JPG)
+![Detection du baggage](images/test_image2.JPG)
+
 ## I. Soustraction de background :
 
 Afin de détecter les objets qui restent statique pendant plusieurs secondes, on pratique ce que l'on appelle une "soustraction de fond".
@@ -25,3 +28,4 @@ Une fois les objets statiques détectés nous les classifions comme baggages ou no
 1) Choix du Dataset dans le programme main.py
 2) On peut modifier les paramètres dans const.py : Les deux learning rates et les deux valeurs de Threshold
 2) Lancer main.py en choisisant le dataset voulu pour travailler sur une vidéo, ou lancer main_url.py en indiquant le lien http voulu pour travailler sur un flux vidéo en direct en ligne.
+
